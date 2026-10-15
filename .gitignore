@@ -1,0 +1,43 @@
+# MQL5 compiled files
+*.ex5
+*.ex4
+
+# MT5 cache/logs
+*.log
+*.tmp
+
+# MQL5 preset files (may contain personal broker settings)
+*.set
+
+# Audit CSV output (contains trade data)
+GoldV4_audit.csv
+GoldV5_LNY_audit.csv
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Personal MT5 configs
+config/
+history/
+tester/
+reports/
+
+# Account credentials (never commit)
+*.cred
+*.key
+accounts.txt
+credentials.txt
+
+# Backtest raw data (large files)
+backtests/*.htm
+backtests/*.html
+backtests/raw/
